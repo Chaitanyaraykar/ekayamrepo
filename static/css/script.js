@@ -82,29 +82,149 @@ function clearStatusClass(element) {
   element.classList.remove('wrong')
 }
 
+
 const questions = [
   {
-    question: 'What is 2 + 2?',
+    question:'Which is the capital of India?', 
     answers: [
-      { text: '4', correct: true },
-      { text: '22', correct: false }
+      {text: 'New Delhi', correct: true },
+      { text: 'Kathmandu', correct: false },
+      { text: 'Bonn', correct: false },
+      { text: 'Paris', correct: false }
+
+    ]
+   
+  },
+  {
+    question: 'Which is the capital of Australia ?',
+    answers: [
+      { text: 'Canberra', correct: true },
+      { text: 'Brasilia', correct: false},
+      { text: 'Bonn ', correct: false },
+      { text: 'Ottawa', correct: false }
     ]
   },
   {
-    question: 'Who is the best YouTuber?',
+    question: 'Which is the capital of Brazila ?',
     answers: [
-      { text: 'Web Dev Simplified', correct: true },
-      { text: 'Traversy Media', correct: true },
-      { text: 'Dev Ed', correct: true },
-      { text: 'Fun Fun Function', correct: true }
+      { text: 'Canberra', correct: false },
+
+      { text: 'Brasilia', correct:true },
+      { text: 'Bonn', correct: false },
+      { text: 'Paris', correct: false }
     ]
   },
-  
   {
-    question: 'What is 4 * 2?',
+    question: 'Which is the capital of China?',
     answers: [
-      { text: '6', correct: false },
-      { text: '8', correct: true }
+        { text: 'Beijing', correct: true },
+
+        { text: 'New Delhi', correct:false },
+        { text: 'Bonn', correct: false },
+        { text: 'Paris', correct: false }
+
+    ]
+  },
+  {
+    question: 'Which is the capital of Nepal?',
+    answers: [
+        { text: 'Kathmandu', correct: true },
+
+        { text: 'New Delhi', correct:false },
+        { text: 'Bonn', correct: false },
+        { text: 'Paris', correct: false }
+
+    ]
+  },
+  {
+    question: 'Which is the capital of Germany?',
+    answers: [
+        { text: 'Bonn', correct: true },
+
+        { text: 'New Delhi', correct:false },
+        { text: 'Canberra', correct: false },
+        { text: 'Paris', correct: false }
+
+    ]
+  },
+  {
+    question: 'Which is the capital of Canada?',
+    answers: [
+        { text: 'Ottawa', correct: true },
+
+        { text: 'New Delhi', correct:false },
+        { text: 'Bonn', correct: false },
+        { text: 'Paris', correct: false }
+
+    ]
+  },
+  {
+    question: 'Which is the capital of France?',
+    answers: [
+        { text: 'Paris', correct: true },
+
+        { text: 'New Delhi', correct:false },
+        { text: 'Bonn', correct: false },
+        { text: 'Ottawa', correct: false }
+
+    ]
+  },
+  {
+    question: 'Which is the capital of Croatia?',
+    answers: [
+        { text: 'Zagreb', correct: true },
+
+        { text: 'Nauru', correct:false },
+        { text: 'Sharjah', correct: false },
+        { text: 'Nelson', correct: false }
+
+    ]
+  },
+  {
+    question: 'Which is the capital of Sri Lanka?',
+    answers: [
+        { text: 'Colombo', correct: true },
+
+        { text: 'Nauru', correct:false },
+        { text: 'Sharjah', correct: false },
+        { text: 'Nelson', correct: false }
+
+    ]
+  },
+  {
+    question: 'Which is the capital of Argentina?',
+    answers: [
+        { text: 'Buenos Aires', correct: true },
+
+        { text: 'Auckland',correct:false },
+        { text: 'Dunedin', correct: false },
+        { text: 'Trincomalee', correct: false }
+
+    ]
+  },
+  {
+    question: 'Which is the capital of New Zealand?',
+    answers: [
+        { text: 'wellington', correct: true },
+
+        { text: 'Bandung',correct:false },
+        { text: 'Dunedin', correct: false },
+        { text: 'Trincomalee', correct: false }
+
+    ]
+  },
+  {
+    question: 'Which is the capital of Indonesia?',
+    answers: [
+        { text: 'Jakarta', correct: true },
+
+        { text: ' Zadar', correct:false },
+        { text: 'Kandy', correct: false },
+        { text: 'Split', correct: false }
+
     ]
   }
+
+  
+ 
 ]
